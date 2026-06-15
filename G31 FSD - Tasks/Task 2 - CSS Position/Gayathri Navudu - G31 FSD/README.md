@@ -1,6 +1,6 @@
 # CSS Position Assignment
 
-Name: Gayathri Navudu
+Name:Gayathri Navudu
 
 Task 2 - CSS Position
 
