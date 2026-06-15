@@ -1,1 +1,77 @@
+body{
+    font-family: Arial, sans-serif;
+    padding:20px;
+}
 
+/* Static Position */
+.static-box{
+    position: static;
+    top:50px;
+    left:50px;
+    background:lightblue;
+}
+
+/* Relative Position */
+.relative-box{
+    position: relative;
+    left:40px;
+    top:20px;
+    background:orange;
+    padding:20px;
+    width:150px;
+}
+
+/* Absolute Position */
+.parent{
+    position: relative;
+    height:200px;
+    border:2px solid black;
+}
+
+.absolute-box{
+    position:absolute;
+    top:10px;
+    right:10px;
+    background:pink;
+    padding:10px;
+}
+
+/* Fixed Position */
+.fixed-btn{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    padding:10px;
+}
+
+/* z-index */
+.red,.blue,.green{
+    width:100px;
+    height:100px;
+    position:relative;
+}
+
+.red{
+    background:red;
+    z-index:1;
+}
+
+.blue{
+    background:blue;
+    margin-top:-50px;
+    margin-left:30px;
+    z-index:2;
+}
+
+.green{
+    background:green;
+    margin-top:-50px;
+    margin-left:60px;
+    z-index:3;
+}
+
+.box{
+    background:lightgray;
+    padding:20px;
+    margin:10px;
+}
